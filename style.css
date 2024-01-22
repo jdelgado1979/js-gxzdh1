@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #708090;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  width: 600px;
+  height: 900px;
+  background-color: white;
+}
+
+rect {
+  fill: steelblue;
+}
+
+text {
+  font-size: 2.5em;
+  font-family: Roboto;
+}
+
+.bar:hover {
+  fill: rgb(228, 225, 51);
+}
+
+#title {
+  font: 14pt sans-serif;
+  fill: red;
+  z-index: 2;
+}
