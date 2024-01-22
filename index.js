@@ -67,8 +67,4 @@ function renderRect() {
     .attr('class', 'bar');
 }
 
-/*
- 
 
- 
-*/
